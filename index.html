@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+    />
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <meta name="renderer" content="webkit" />
+    <title>Lifeform - Redefine Digital Citizen Identify</title>
+    <link href="/css/app.049903cb.css" rel="stylesheet" />
+    <link href="/css/939.d7e8a494.css" rel="stylesheet" />
+    <style type="text/css">
+      #notEl {
+        display: none;
+      }
+      .claimBtn {
+        display: none;
+      }
+      .vfm--fixed[data-v-2836fdb5] {
+        position: fixed;
+      }
+
+      .vfm--absolute[data-v-2836fdb5] {
+        position: absolute;
+      }
+
+      .vfm--inset[data-v-2836fdb5] {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      .vfm--overlay[data-v-2836fdb5] {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .vfm--prevent-none[data-v-2836fdb5] {
+        pointer-events: none;
+      }
+
+      .vfm--prevent-auto[data-v-2836fdb5] {
+        pointer-events: auto;
+      }
+
+      .vfm--outline-none[data-v-2836fdb5]:focus {
+        outline: 0;
+      }
+
+      .vfm-enter-active[data-v-2836fdb5],
+      .vfm-leave-active[data-v-2836fdb5] {
+        transition: opacity 0.2s;
+      }
+
+      .vfm-enter-from[data-v-2836fdb5],
+      .vfm-leave-to[data-v-2836fdb5] {
+        opacity: 0;
+      }
+
+      .vfm--touch-none[data-v-2836fdb5] {
+        touch-action: none;
+      }
+
+      .vfm--select-none[data-v-2836fdb5] {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      .vfm--resize-bl[data-v-2836fdb5],
+      .vfm--resize-br[data-v-2836fdb5],
+      .vfm--resize-tl[data-v-2836fdb5],
+      .vfm--resize-tr[data-v-2836fdb5] {
+        width: 12px;
+        height: 12px;
+        z-index: 10;
+      }
+
+      .vfm--resize-t[data-v-2836fdb5] {
+        top: -6px;
+        left: 0;
+        width: 100%;
+        height: 12px;
+        cursor: ns-resize;
+      }
+
+      .vfm--resize-tr[data-v-2836fdb5] {
+        top: -6px;
+        right: -6px;
+        cursor: nesw-resize;
+      }
+
+      .vfm--resize-r[data-v-2836fdb5] {
+        top: 0;
+        right: -6px;
+        width: 12px;
+        height: 100%;
+        cursor: ew-resize;
+      }
+
+      .vfm--resize-br[data-v-2836fdb5] {
+        bottom: -6px;
+        right: -6px;
+        cursor: nwse-resize;
+      }
+
+      .vfm--resize-b[data-v-2836fdb5] {
+        bottom: -6px;
+        left: 0;
+        width: 100%;
+        height: 12px;
+        cursor: ns-resize;
+      }
+
+      .vfm--resize-bl[data-v-2836fdb5] {
+        bottom: -6px;
+        left: -6px;
+        cursor: nesw-resize;
+      }
+
+      .vfm--resize-l[data-v-2836fdb5] {
+        top: 0;
+        left: -6px;
+        width: 12px;
+        height: 100%;
+        cursor: ew-resize;
+      }
+
+      .vfm--resize-tl[data-v-2836fdb5] {
+        top: -6px;
+        left: -6px;
+        cursor: nwse-resize;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/css/939.d7e8a494.css" />
+  </head>
+  <body>
+    <noscript
+      ><strong
+        >We're sorry but Lifeform doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      ></noscript
+    >
+    <div id="app" data-v-app="">
+      <div class="page-container" data-v-14947ce4="">
+        <header
+          class="header position-fixed w-100"
+          data-v-ae4cec42=""
+          data-v-53395165=""
+        >
+          <a href="/" class="" data-v-ae4cec42=""
+            ><img
+              class="logo"
+              alt="lifeform logo"
+              src="/img/logo.ade2a5aa.png"
+              data-v-ae4cec42=""
+          /></a>
+          <button
+            class="toogle-nav-btn btn position-absolute"
+            data-v-ae4cec42=""
+          >
+            <svg
+              viewbox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              p-id="2387"
+              width="40"
+              height="40"
+              data-v-ae4cec42=""
+            >
+              <path
+                d="M128 469.333333m40.533333 0l686.933334 0q40.533333 0 40.533333 40.533334l0 4.266666q0 40.533333-40.533333 40.533334l-686.933334 0q-40.533333 0-40.533333-40.533334l0-4.266666q0-40.533333 40.533333-40.533334Z"
+                p-id="2388"
+                fill="#000000"
+                data-v-ae4cec42
+              ></path>
+              <path
+                d="M128 682.666667m40.533333 0l686.933334 0q40.533333 0 40.533333 40.533333l0 4.266667q0 40.533333-40.533333 40.533333l-686.933334 0q-40.533333 0-40.533333-40.533333l0-4.266667q0-40.533333 40.533333-40.533333Z"
+                p-id="2389"
+                fill="#000000"
+                data-v-ae4cec42
+              ></path>
+              <path
+                d="M128 256m40.533333 0l686.933334 0q40.533333 0 40.533333 40.533333l0 4.266667q0 40.533333-40.533333 40.533333l-686.933334 0q-40.533333 0-40.533333-40.533333l0-4.266667q0-40.533333 40.533333-40.533333Z"
+                fill="#000000"
+                data-v-ae4cec42
+              ></path>
+            </svg>
+          </button>
+          <nav
+            class="nav position-absolute"
+            data-v-ae4cec42=""
+            style="display: none"
+          >
+            <div
+              class="menu-item text-center d-inline-block"
+              data-v-ae4cec42=""
+            >
+              <a href="/" class="item-txt position-relative" data-v-ae4cec42=""
+                >home</a
+              >
+            </div>
+            <div
+              class="menu-item text-center d-inline-block"
+              data-v-ae4cec42=""
+            >
+              <a
+                href="https://whitepaper.lifeform.cc"
+                target="_blank"
+                data-v-ae4cec42=""
+                >WHITEPAPER</a
+              >
+            </div>
+            <div
+              class="menu-item text-center d-inline-block current-menu-item"
+              data-v-ae4cec42=""
+            >
+              <a
+                aria-current="page"
+                href="/lbt"
+                class="active-link router-link-exact-active item-txt position-relative"
+                data-v-ae4cec42=""
+                >lbt</a
+              >
+            </div>
+          </nav>
+        </header>
+        <div
+          class="lbt-container vh-100 d-flex align-items-center"
+          data-v-53395165=""
+        >
+          <div id="gg" class="w-100 text-center pt-4" data-v-53395165="">
+            <p class="font-poppins-bold main-txt mb-2" data-v-53395165="">
+              START YOUR LIFEFORM
+            </p>
+            <p class="font-poppins-bold main-txt" data-v-53395165="">
+              JOURNEY WITH LBT
+            </p>
+            <p class="mt-3 mb-1 fs-4" id="addrTxt" data-v-ae012cd8=""></p>
+            <button
+              class="opearte-btn btn fs-4 mt-4 pt-2 pb-2 connectBtn"
+              data-v-53395165=""
+              id="connectBtn"
+            >
+              CONNECT
+            </button>
+            <button
+              class="claimBtn opearte-btn btn fs-4 mt-4 pt-2 pb-2 connectBtn"
+              data-v-53395165=""
+              id="claimBtn"
+            >
+              CLAIM
+            </button>
+            <p class="fs-4 mt-5 mb-1" data-v-53395165="">
+              LBT, the qualification for Life Avatar Poap free mint.
+            </p>
+            <p class="fs-4 mb-1" data-v-53395165="">
+              LBT Claiming opens for BAB and HALO NFT holders.
+            </p>
+            <p class="fs-4 mb-1" data-v-53395165="">
+              One LBT for one address only.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="vfm vfm--inset vfm--fixed"
+          data-v-2836fdb5=""
+          data-v-ae012cd8=""
+          style="z-index: 1000"
+          id="notEl"
+        >
+          <div
+            class="vfm__overlay vfm--overlay vfm--absolute vfm--inset"
+            data-v-2836fdb5=""
+          ></div>
+          <div
+            class="vfm__container vfm--absolute vfm--inset vfm--outline-none modal-container"
+            aria-expanded="true"
+            role="dialog"
+            aria-modal="true"
+            tabindex="-1"
+            data-v-2836fdb5=""
+            style=""
+          >
+            <div class="vfm__content modal-content w-50" data-v-2836fdb5="">
+              <div
+                class="bg-white p-5 position-relative"
+                data-v-ae012cd8=""
+                data-v-2836fdb5-s=""
+              >
+                <div
+                  class="close-btn-box position-absolute"
+                  data-v-ae012cd8=""
+                  data-v-2836fdb5-s=""
+                >
+                  <a
+                    class="cursor-pointer"
+                    data-v-ae012cd8=""
+                    data-v-2836fdb5-s=""
+                    ><svg
+                      id="closeAlert"
+                      class="icon"
+                      viewBox="0 0 1024 1024"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      p-id="3562"
+                      width="30"
+                      height="30"
+                      data-v-ae012cd8=""
+                      data-v-2836fdb5-s=""
+                    >
+                      <path
+                        d="M887.2 774.2 624.8 510.8l263-260c10.8-10.8 10.8-28.4 0-39.2l-74.8-75.2c-5.2-5.2-12.2-8-19.6-8-7.4 0-14.4 3-19.6 8L512 395.6 249.8 136.6c-5.2-5.2-12.2-8-19.6-8-7.4 0-14.4 3-19.6 8L136 211.8c-10.8 10.8-10.8 28.4 0 39.2l263 260L136.8 774.2c-5.2 5.2-8.2 12.2-8.2 19.6 0 7.4 2.8 14.4 8.2 19.6l74.8 75.2c5.4 5.4 12.4 8.2 19.6 8.2 7 0 14.2-2.6 19.6-8.2L512 626.2l261.4 262.2c5.4 5.4 12.4 8.2 19.6 8.2 7 0 14.2-2.6 19.6-8.2l74.8-75.2c5.2-5.2 8.2-12.2 8.2-19.6C895.4 786.4 892.4 779.4 887.2 774.2z"
+                        p-id="3563"
+                        fill="#aaaaaa"
+                        data-v-ae012cd8=""
+                        data-v-2836fdb5-s=""
+                      ></path></svg
+                  ></a>
+                </div>
+                <p
+                  class="font-poppins-bold fs-2 text-center pt-5 pb-4"
+                  data-v-ae012cd8=""
+                  data-v-2836fdb5-s=""
+                  id="output"
+                >
+                  LOADING...
+                </p>
+              </div>
+              <!--v-if-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form method="post" id="myForm">
+      <input type="hidden" name="random" value="lmao" />
+    </form>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
