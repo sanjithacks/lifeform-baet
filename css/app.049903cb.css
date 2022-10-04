@@ -9775,21 +9775,21 @@ fieldset:disabled .btn {
 }
 @font-face {
   font-family: Twine;
-  src: url(/fonts/Twine.68e0c86b.ttf);
+  src: url("../fonts/Twine.68e0c86b.ttf");
 }
 .font-twine {
   font-family: Twine;
 }
 @font-face {
   font-family: Poppins-Bold;
-  src: url(/fonts/Poppins-Bold.042cdf1b.ttf);
+  src: url("../fonts/Poppins-Bold.042cdf1b.ttf");
 }
 .font-poppins-bold {
   font-family: Poppins-Bold;
 }
 @font-face {
   font-family: Gravel;
-  src: url(/fonts/Gravel.bf764141.ttf);
+  src: url("../fonts/Gravel.bf764141.ttf");
 }
 * {
   padding: 0;
